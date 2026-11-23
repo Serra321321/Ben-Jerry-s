@@ -1,0 +1,89 @@
+/**************/
+/* CSS REMEDY */
+/**************/
+*, *::after, *::before {
+  box-sizing:border-box;  
+}
+
+
+
+
+
+
+/*********************/
+/* CUSTOM PROPERTIES */
+/*********************/
+:root {
+	/* startje */
+	--color-text:#111;
+	--color-background:#eee;
+}
+
+
+
+
+
+/****************/
+/* JOUW STYLING */
+/****************/
+
+/* Algemene styling */
+
+body {
+    margin: 0;
+}
+
+/* Afbeeldingen */
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Logo in de header */
+
+header img {
+    width: 9em;
+}
+
+/* Header */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+}
+
+header nav {
+    display: none;
+}
+
+/* Eerste section: Love Nut Hate */
+
+main section:first-of-type {
+    background-color: #91bd32;
+    padding-bottom: 2em;
+}
+
+main section:first-of-type h1,
+main section:first-of-type p {
+    padding: 0 1em;
+}
+
+/* Gele buttons */
+
+main section a {
+    display: inline-block;
+    background-color: #ffbc0f;
+    color: black;
+    padding: 0.8em 1.5em;
+    border-radius: 2em;
+    text-decoration: none;
+    margin: 1em;
+}
+
+main section a:hover {
+    background-color: #ffe059;
+}
